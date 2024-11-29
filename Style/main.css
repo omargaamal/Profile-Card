@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+
+}
+body{
+    height: 100vh;
+   background-color:hsl(0, 0%, 8%); 
+   display: flex;
+    justify-content: center;
+align-items: center;
+}
+body .container{
+    width: 412px;
+    height: 618px;
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+.avatat-img{
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
+body .container .avatat-img img{
+    width: 100px;
+    border-radius: 100%;
+}
+body .container .content{
+    text-align: center;
+    padding-top: 28px;
+}
+body .container .content .name{
+    color:hsl(0, 0%, 100%) ; 
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+body .container .content .address{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+body .container .content .description{ 
+    color: hsl(0, 0%, 100%);
+    padding-top: 36px;
+    letter-spacing: 1px;
+
+}
+body .container .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+}
+#accounts{
+    width: 340px;
+    font-size: 15px;
+    height: 47px;
+    border-style: none;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-weight: 600;
+cursor: pointer;
+}
+#accounts:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+@media (max-width: 430px){
+    body .container {
+        width: 294px;
+        height: 495px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 10px;
+    }
+    .avatat-img {
+        display: flex;
+        justify-content: center;
+        padding-top: 14px;
+    }
+    body .container .content {
+        text-align: center;
+        padding-top: 9px;
+    }
+    body .container .content .name {
+        color: hsl(0, 0%, 100%);
+        padding: 5px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    body .container .content .description {
+        color: hsl(0, 0%, 100%);
+        padding-top: 25px;
+        letter-spacing: 1px;
+    }
+    body .container .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 19px;
+    }
+    #accounts {
+        width: 275px;
+        font-size: 15px;
+        height: 40px;
+        border-style: none;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        padding: 10px 0;
+        margin: 5px 0;
+        border-radius: 5px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
